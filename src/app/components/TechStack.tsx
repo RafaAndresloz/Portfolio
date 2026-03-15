@@ -259,7 +259,7 @@ export function TechStack() {
   const currentList = showFullStack ? fullStack : dailyTech
 
   return (
-    <section className="py-24 px-6 relative overflow-hidden">
+    <section id="techstack" className="py-24 px-6 relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-violet-950/10 to-transparent" />
       
       <div className="container mx-auto relative z-10">

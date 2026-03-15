@@ -5,10 +5,12 @@ import { Experience } from "./components/Experience";
 import { Companies } from "./components/Companies";
 import { About } from "./components/About";
 import { Contact } from "./components/Contact";
+import { Navbar } from "./components/Navbar";
 
 export default function App() {
   return (
     <div className="min-h-screen bg-[#0a0a15] text-white overflow-x-hidden">
+      <Navbar />
       {/* Main Content */}
       <main>
         <Hero />

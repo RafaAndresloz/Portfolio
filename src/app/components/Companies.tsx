@@ -23,7 +23,7 @@ export function Companies() {
   ];
 
   return (
-    <section className="py-24 px-6 relative overflow-hidden">
+    <section id="companies" className="py-24 px-6 relative overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0">
         <div className="absolute top-1/2 left-0 w-full h-px bg-gradient-to-r from-transparent via-violet-500/20 to-transparent" />

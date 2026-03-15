@@ -182,12 +182,12 @@ export function Hero() {
             transition={{ delay: 0.8, duration: 0.6 }}
             className="flex gap-4 pt-4"
           >
-            <button className="px-8 py-3 rounded-2xl bg-gradient-to-r from-violet-600 to-indigo-600 text-white font-medium hover:shadow-lg hover:shadow-violet-500/50 transition-all duration-300 hover:scale-105">
+            <a href="#projects" className="px-8 py-3 rounded-2xl bg-gradient-to-r from-violet-600 to-indigo-600 text-white font-medium hover:shadow-lg hover:shadow-violet-500/50 transition-all duration-300 hover:scale-105">
               Ver Proyectos
-            </button>
-            <button className="px-8 py-3 rounded-2xl border-2 border-violet-500/30 text-violet-200 font-medium hover:border-violet-500 hover:bg-violet-500/10 transition-all duration-300">
+            </a>
+            <a href="#contact" className="px-8 py-3 rounded-2xl border-2 border-violet-500/30 text-violet-200 font-medium hover:border-violet-500 hover:bg-violet-500/10 transition-all duration-300">
               Contacto
-            </button>
+            </a>
           </motion.div>
         </motion.div>
 
