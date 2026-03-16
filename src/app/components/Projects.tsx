@@ -126,7 +126,7 @@ export function Projects() {
                   </div>
 
                   {/* Links */}
-                  <div className="flex gap-3 pt-4">
+                  {/* <div className="flex gap-3 pt-4">
                     <button
                       className="flex items-center gap-2 px-4 py-2 rounded-xl bg-violet-600/20 border border-violet-500/30 text-violet-200 hover:bg-violet-600/30 hover:border-violet-500/50 transition-all duration-300"
                     >
@@ -139,7 +139,7 @@ export function Projects() {
                       <ExternalLink className="w-4 h-4" />
                       <span className="text-sm">Demo</span>
                     </button>
-                  </div>
+                  </div> */}
                 </div>
 
                 {/* Animated border */}
