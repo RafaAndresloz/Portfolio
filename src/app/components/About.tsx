@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
 import { useEffect, useRef } from "react";
-import { Coffee, Heart, Rocket, Sparkles } from "lucide-react";
+import { Coffee, Heart } from "lucide-react";
 
 export function About() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
